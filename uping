@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# extract hostname, remove protocol prefix, userid and ports, thanks to http://stackoverflow.com/a/40219798/1288414
+hostname=$(echo $1 | sed -e 's#^https://\|^http://\|^ftp://\|^ssh://##' -e 's#:.*##' -e 's#/.*##' | cut -d'@' -f2)
+
+# remove hostname from arg list
+shift
+
+# exec ping command with other arguments
+ping $hostname $@
