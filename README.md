@@ -23,7 +23,7 @@ rtt min/avg/max/mdev = 200.063/206.096/221.866/9.148 ms
 
 ## More Examples
 
-| url | extracted hostname |
+| URL | Extracted Hostname |
 |-----|--------------------|
 | google.com | google.com |
 | search.google.com | search.google.com |
