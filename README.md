@@ -33,7 +33,7 @@ rtt min/avg/max/mdev = 200.063/206.096/221.866/9.148 ms
 | ssh://root@mdminhazulhaque.io | mdminhazulhaque.io |
 | https://mdminhazulhaque.io/projects.html | mdminhazulhaque.io |
 | https://en.wikipedia.org/wiki/Ping_(networking_utility) | en.wikipedia.org |
-| http://a.very.long.hostname.at.example.com:8080/also/with/long/long/url/params.html | a.very.long.hostname.at.example.com |
+| http://a.very.long.hostname.at.example.com:8080/also/with/url/params.html | a.very.long.hostname.at.example.com |
 
 
 ## Feedback
